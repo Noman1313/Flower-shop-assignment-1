@@ -10,20 +10,22 @@ body {
 }
 
 /* header tag style */
-.nav-container{
+.nav-container {
     display: flex;
     padding: 18px;
     justify-content: space-between;
     align-items: center;
     background: rgba(71, 125, 17, 0.15);
 }
-.nav-title{
+
+.nav-title {
     color: black;
     padding: 20px;
     font-size: 30px;
     font-weight: 700;
 }
-.search-bar{
+
+.search-bar {
     width: 600px;
     height: 40px;
     padding-left: 20px;
@@ -31,20 +33,24 @@ body {
     border: 0;
     border-radius: 5px;
 }
-.nav-container li{
+
+.nav-container li {
     padding: 10px;
     border-radius: 5px;
 }
-.nav-container li:hover{
+
+.nav-container li:hover {
     background-color: #f3859d;
 }
-.manu{
+
+.manu {
     list-style: none;
     display: flex;
     gap: 10px;
     font-size: 16px;
     color: rgba(39, 39, 39, 0.60);
 }
+
 .header-container {
     display: flex;
     justify-content: space-around;
@@ -169,6 +175,73 @@ body {
 
 .card {
     text-align: center;
+}
+
+/* more bonus */
+.more-bonus-container {
+    height: 80vh;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.more-description {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.more-description>hr {
+    width: 50%;
+    border: 2px solid rgba(226, 90, 119, 0.2);
+
+}
+
+.cards {
+    display: flex;
+
+    margin: 10px;
+}
+
+.more-card {
+    padding: 30px;
+    text-align: center;
+
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+}
+
+.img:hover {
+    transform: scale(1.1)
+}
+
+.price {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+}
+.img-description{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+.btn{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 5px;
+    background: #E55473;
+    padding: 5px;
+    width: 70px;
 }
 
 /* main part 1  */
