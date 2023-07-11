@@ -61,6 +61,82 @@ body {
 }
 
 /* main tag style */
+/* bonus tag */
+
+.bonus-container {
+    width: 90%;
+    margin: auto;
+}
+
+.bonus-info {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.bonus-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.bonus-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.bonus-image {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.image-info-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.image-info-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.image-info-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.image {
+    width: 150px;
+    height: 200px;
+}
+
+.img-title {
+    color: #272727;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-decoration-line: underline;
+}
+
+.card {
+    text-align: center;
+}
+
 /* main part 1  */
 .main-container-part1 {
     display: flex;
@@ -195,7 +271,8 @@ span {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.90);
 }
-hr{
+
+hr {
     width: 50%;
     margin-left: 25%;
     margin-top: 20px;
